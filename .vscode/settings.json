@@ -1,0 +1,61 @@
+{
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:/Users/brand/Downloads/javafx-sdk-23.0.1/lib/javafx.graphics.jar",
+    "c:/Users/brand/Downloads/javafx-sdk-23.0.1/lib/javafx.media.jar",
+    "c:/Users/brand/Downloads/javafx-sdk-23.0.1/lib/javafx.swing.jar",
+    "c:/Users/brand/Downloads/javafx-sdk-23.0.1/lib/javafx.web.jar",
+    "c:/Users/brand/Downloads/javafx-sdk-23.0.1/lib/javafx.base.jar",
+    "c:/Users/brand/Downloads/javafx-sdk-23.0.1/lib/javafx.controls.jar",
+    "c:/Users/brand/Downloads/javafx-sdk-23.0.1/lib/javafx.fxml.jar",
+    "c:/Users/brand/Downloads/javafx-sdk-23.0.1/lib/javafx-swt.jar",
+    "lib/postgresql-42.7.4.jar"
+  ],
+  "java.debug.settings.onBuildFailureProceed": true,
+  "C_Cpp_Runner": {
+    "cCompilerPath": "gcc",
+    "cppCompilerPath": "g++",
+    "debuggerPath": "gdb",
+    "warnings": [
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wshadow",
+      "-Wformat=2",
+      "-Wcast-align",
+      "-Wconversion",
+      "-Wsign-conversion",
+      "-Wnull-dereference"
+    ],
+    "msvcBatchPath": "C:/Program Files/Microsoft Visual Studio/VR_NR/Community/VC/Auxiliary/Build/vcvarsall.bat",
+    "useMsvc": false,
+    "enableWarnings": true,
+    "warningsAsError": false,
+    "compilerArgs": [],
+    "linkerArgs": [],
+    "includePaths": [],
+    "includeSearch": [
+      "*",
+      "**/*"
+    ],
+    "excludeSearch": [
+      "**/build",
+      "**/build/**",
+      "**/.*",
+      "**/.*/**",
+      "**/.vscode",
+      "**/.vscode/**"
+    ],
+    "useAddressSanitizer": false,
+    "useUndefinedSanitizer": false,
+    "useLeakSanitizer": false,
+    "showCompilationTime": false,
+    "useLinkTimeOptimization": false,
+    "msvcSecureNoWarnings": false
+  },
+  "java.debug.settings.vmArgs": "--module-path \"C:/Users/brand/Downloads/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+}
